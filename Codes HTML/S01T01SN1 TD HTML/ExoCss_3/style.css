@@ -1,0 +1,52 @@
+div 
+{
+   text-align: center;
+}
+
+
+#Bandeau 
+{   
+    background-color:#00CCFF;
+    width:600px;
+	height:50px;
+    top: 0px;
+}
+
+#Menu 
+{
+	float:left;
+	width:100px;
+	height:400px;
+	background-color:#FF6699;
+}
+
+#MenuH
+{
+    width:100px;
+	height:200px;
+	background-color:#66CC33;
+}
+
+#MenuB 
+{
+
+    width:100px;
+	height:200px;
+	background-color:#CC99CC;
+}
+
+#Contenu 
+{
+    background-color:#FFCC00;
+    width:500px;
+	height:400px;
+    float:left;
+}
+
+#Pieddepage 
+{
+    background-color:#33FF99;
+    width:600px;
+	height:50px;
+    clear:both;
+}

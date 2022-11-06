@@ -1,0 +1,7 @@
+table,
+th,
+td {
+  padding: 10px;
+  border: 5px black double;
+  border-collapse: collapse;
+}

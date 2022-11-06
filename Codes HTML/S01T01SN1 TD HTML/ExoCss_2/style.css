@@ -1,0 +1,39 @@
+div 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Bandeau 
+{   
+    background-color:#00CCFF;
+    width:600px;
+	height:50px;
+    top: 0px;
+}
+
+#Menu
+{
+    float:left;
+	width:100px;
+	height:400px;
+	background-color:#FF6699;
+}
+
+#Contenu 
+{
+    background-color:#FFCC00;
+    width:500px;
+	height:400px;
+}
+
+#Pieddepage 
+{
+    background-color:#33FF99;
+    width:600px;
+	height:50px;
+}
+
+
+

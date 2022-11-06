@@ -1,0 +1,28 @@
+div 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Bandeau 
+{   
+    background-color:#00CCFF;
+    width:600px;
+	height:50px;
+    top: 0px;
+}
+
+#Contenu 
+{
+    background-color:#FFCC00;
+    width:600px;
+	height:400px;
+}
+
+#Pieddepage 
+{
+    background-color:#33FF99;
+    width:600px;
+	height:50px;
+}

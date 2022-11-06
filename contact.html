@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Contact</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container"> 
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Acceuil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Bootstrap html/index.html">Exercices HTML/CSS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="CV_FR.html">CV Français</a></li>
+                        <li class="nav-item"><a class="nav-link" href="CV_EN.html">CV Anglais</a></li>
+                        <li class="nav-item"><a class="nav-link" href="images.html">Mosaïque</a></li>
+                        <li class="nav-item"><a class="nav-link" href="youtube.html">Youtube</a></li>
+                        <li class="nav-item"><a class="nav-link" href="soundcloud.html">Soundcloud</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contactez nous</h2>
+                    <h3 class="section-subheading text-muted">Si vous avez le désire de changer votre vie amoureuse.</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Votre nom *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Il vous faut un nous.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Votre Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Il vous faut une adresse mail.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Il vous faut une adresse mail valide.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- age  input-->
+                                <input class="form-control" id="age" type="number" placeholder="Votre âge *" data-sb-validations="required" min="1" max="150"/>
+                                <div class="invalid-feedback" data-sb-feedback="age:required">Il vous faut un age.</div>
+                            </div>
+
+                            <div class="form-group mb-md-0">
+                                <!-- sex input-->
+                                <select class="form-control" id="sex"  data-sb-validations="required" >
+                                
+                                    <option class="form-control" value="0">
+                                        Votre sex *
+                                    </option>
+                                    <option value="2">
+                                        Femme
+                                    </option>
+                                    <option value="3">
+                                        Homme
+                                    </option>
+                                </select>
+                                <div class="invalid-feedback" data-sb-feedback="sex:required">Il vous faut un sex.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Votre Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Votre inscription estr un succès !</div>
+                            Pour activer ce form, inscrivez vous à :
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur lors de l'envoie du message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Envoyer le message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 my-3 my-lg-0">
+                        Copyright &copy; Joris HURTEL 2022
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>       
+</html>

@@ -1,0 +1,34 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+table
+{
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+th, td
+{
+    border: 2px solid black;
+}
+
+.vert
+{
+    
+    color: green;
+}
+
+.bleu
+{
+    color: blue;
+}
+
+p.entre-red
+{
+    color: red;
+}

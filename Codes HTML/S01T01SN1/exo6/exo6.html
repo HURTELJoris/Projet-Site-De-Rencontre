@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercice 2</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div id = "tableau">
+            <form>
+                <div>Civilité :
+
+                    <label id="contactChoice1" for="contactChoice1">Mr</label>
+                    <input type="radio" 
+                    name="contact" value="Mr" required>
+                    
+
+                    <label for="contactChoice2">Mme ou Mlle</label>
+                    <input type="radio" id="contactChoice2"
+                    name="contact" value="Mme ou Mlle" required>
+                    
+                </div>
+
+
+                <div>Nom :
+
+                    <input type="text" id="nom" name="name" required minlength="1" maxlength="20" size="16">
+
+                </div>
+
+                <div>Prénom :
+
+                    <input type="text" id="prenom" name="name" required minlength="3" maxlength="20" size="16">
+
+                </div>
+
+                <div>Date de naissance :
+
+                    <select name="Jours" id="Jours-select" required>
+                        <option value=""></option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> <option value="31">31</option>
+                    </select>
+
+                    <select name="Mois" id="Mois-select">
+                        <option value=""></option> <option value="Janvier">Janvier</option> <option value="Fevrier">Février</option> <option value="Mars">Mars</option> <option value="Avril">Avril</option> <option value="Mai">Mai</option> <option value="Juin">Juin</option> <option value="Juillet">Juillet</option> <option value="Aout">Août</option> <option value="Septembre">Septembre</option> <option value="Octobre">Octobre</option> <option value="Novembre">Novembre</option> <option value="Decembre">Décembre</option>
+                    </select>
+
+                    Année :
+                    <input type="number" id="Annee" required minlength="4" maxlength="4" size="4">
+
+                </div>
+
+
+                <div class="tab">Numéro :
+
+                    <input type="number" id="numero1" name="name" required minlength="1" maxlength="4" size="4">
+
+                Rue :
+
+                    <input type="text" id="rue" name="name" required minlength="3" maxlength="40" size="20">
+
+                </div>
+
+                <div>Adresse :</div>
+
+                <div class="tab">Code postal :
+
+                    <input type="number" id="numero" name="name" required minlength="5" maxlength="5" size="4">
+
+                Ville :
+
+                    <input type="text" id="ville" name="name" required minlength="3" maxlength="40" size="15">
+
+                </div>
+
+                <div>Téléphone :
+
+                    <input type="tel" id="telephone" name="name" required minlength="1" maxlength="20" size="16">
+
+                </div>
+
+                <div>Email :
+
+                    <input type="email" id="email" name="name" required minlength="3" maxlength="20" size="16">
+
+                </div>
+                
+                <div>
+                    <input type="submit" value="Envoyer" class="bouton">
+                    <input type="reset" value="Remise à zéro" class="bouton">
+                </div> 
+            </form>
+        </div>
+
+        <div><a href="../../../Bootstrap html/index.html" class="icon-link d-inline-flex align-items-center"> Retour à la page d'accueil <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg> </a></div>
+
+        <div class="bouton"><a href="../index.html">retour</a></div>
+
+    </body>
+</html>

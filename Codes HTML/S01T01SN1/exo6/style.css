@@ -1,0 +1,49 @@
+#tableau 
+{
+    
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:max-content;
+}
+
+div 
+{
+    margin: 5px;
+}
+
+form 
+{
+    
+    margin: 5px;
+
+}
+#contactChoice1 
+{
+    margin-left: 67px;
+}
+
+#nom 
+{
+    margin-left: 83px;
+}
+
+#prenom 
+{
+    margin-left: 65px;
+}
+
+.tab
+{
+    margin-left: 132px;
+}
+
+#telephone 
+{
+    margin-left: 47px;
+}
+
+#email 
+{
+    margin-left: 76px;
+}
